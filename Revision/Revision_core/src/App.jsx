@@ -2,13 +2,16 @@ import UserCard from "./components/UserCard"
 import Mudassar from "./assets/Mudassar.jpg";
  import Maaz from "./assets/Maaz.jpg";
 import ExpensesChart from "./components/ExpensesChart";
+import Notification from "./components/Notification";
+import { CalendarDemo } from "./components/Calender";
 
 function App() {
   return (
      <>
        {/* <UserCard image={Mudassar} name="Mudassar Ijaz" description="Web develper and software engineer"/>
        <UserCard image={Maaz} name="Maaz Ahmad" description="Computer vision Engineer"/> */}
-       <ExpensesChart/>
+       {/* <ExpensesChart/> */}
+       <Notification/>
      </>
   )
 }
